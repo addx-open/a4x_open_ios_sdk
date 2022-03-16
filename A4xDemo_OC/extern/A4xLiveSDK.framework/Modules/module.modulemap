@@ -1,0 +1,11 @@
+framework module A4xLiveSDK {
+  umbrella header "A4xLiveSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module A4xLiveSDK.Swift {
+    header "A4xLiveSDK-Swift.h"
+    requires objc
+}

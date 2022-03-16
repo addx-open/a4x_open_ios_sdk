@@ -55,7 +55,7 @@ public extension Int {
 
 public extension Float {
     static func kRandom(lower: Float = 0, _ upper: Float = 100) -> Float {
-        return (Float(arc4random()) / 0xFFFFFFFF) * (upper - lower) + lower
+        return (Float(arc4random()) / Float(0xFFFFFFFF)) * (upper - lower) + lower
     }
 }
 

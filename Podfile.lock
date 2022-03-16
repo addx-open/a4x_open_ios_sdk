@@ -1,78 +1,35 @@
 PODS:
   - A4xBaseExtensionKit (0.1.1)
-  - A4xSDK (0.1.0)
+  - A4xVideoPushManager (1.0.0):
+    - A4xVideoPushManager/Classes (= 1.0.0)
+    - A4xVideoPushManager/Resources (= 1.0.0)
+    - AutoInch (~> 1.3.1)
+    - YYWebImage (~> 1.0.5)
+  - A4xVideoPushManager/Classes (1.0.0):
+    - AutoInch (~> 1.3.1)
+    - YYWebImage (~> 1.0.5)
+  - A4xVideoPushManager/Resources (1.0.0):
+    - AutoInch (~> 1.3.1)
+    - YYWebImage (~> 1.0.5)
+  - A4xWebRtcFramework (0.1.0):
+    - A4xWebRtcFramework/FFmpeg (= 0.1.0)
+    - Starscream
+    - XCGLogger (~> 7.0.1)
+    - YYWebImage (~> 1.0.5)
+  - A4xWebRtcFramework/FFmpeg (0.1.0):
+    - Starscream
+    - XCGLogger (~> 7.0.1)
+    - YYWebImage (~> 1.0.5)
   - A4xYogaKit (1.18.9):
     - Yoga (~> 1.14)
-  - ADDXWebRTC (0.2.2):
-    - ADDXWebRTC/ADDXWebRTC (= 0.2.2)
-    - ADDXWebRTC/Extensions (= 0.2.2)
-    - ADDXWebRTC/Services (= 0.2.2)
-    - Starscream
-    - XCGLogger (~> 7.0.1)
-    - YYWebImage (~> 1.0.5)
-  - ADDXWebRTC/ADDXWebRTC (0.2.2):
-    - Starscream
-    - XCGLogger (~> 7.0.1)
-    - YYWebImage (~> 1.0.5)
-  - ADDXWebRTC/Extensions (0.2.2):
-    - Starscream
-    - XCGLogger (~> 7.0.1)
-    - YYWebImage (~> 1.0.5)
-  - ADDXWebRTC/Services (0.2.2):
-    - ADDXWebRTC/Services/ffmpeg (= 0.2.2)
-    - ADDXWebRTC/Services/GPAC4iOS (= 0.2.2)
-    - ADDXWebRTC/Services/IJKMediaPlayer (= 0.2.2)
-    - ADDXWebRTC/Services/openssl (= 0.2.2)
-    - ADDXWebRTC/Services/TS2MP4 (= 0.2.2)
-    - ADDXWebRTC/Services/WebSocketProvider (= 0.2.2)
-    - Starscream
-    - XCGLogger (~> 7.0.1)
-    - YYWebImage (~> 1.0.5)
-  - ADDXWebRTC/Services/ffmpeg (0.2.2):
-    - Starscream
-    - XCGLogger (~> 7.0.1)
-    - YYWebImage (~> 1.0.5)
-  - ADDXWebRTC/Services/GPAC4iOS (0.2.2):
-    - Starscream
-    - XCGLogger (~> 7.0.1)
-    - YYWebImage (~> 1.0.5)
-  - ADDXWebRTC/Services/IJKMediaPlayer (0.2.2):
-    - Starscream
-    - XCGLogger (~> 7.0.1)
-    - YYWebImage (~> 1.0.5)
-  - ADDXWebRTC/Services/openssl (0.2.2):
-    - Starscream
-    - XCGLogger (~> 7.0.1)
-    - YYWebImage (~> 1.0.5)
-  - ADDXWebRTC/Services/TS2MP4 (0.2.2):
-    - Starscream
-    - XCGLogger (~> 7.0.1)
-    - YYWebImage (~> 1.0.5)
-  - ADDXWebRTC/Services/WebSocketProvider (0.2.2):
-    - Starscream
-    - XCGLogger (~> 7.0.1)
-    - YYWebImage (~> 1.0.5)
-  - ADVideoMessageManager (0.2.1):
-    - ADVideoMessageManager/Classes (= 0.2.1)
-    - ADVideoMessageManager/Resources (= 0.2.1)
-    - AutoInch (~> 1.3.1)
-    - YYWebImage (~> 1.0.5)
-  - ADVideoMessageManager/Classes (0.2.1):
-    - AutoInch (~> 1.3.1)
-    - YYWebImage (~> 1.0.5)
-  - ADVideoMessageManager/Resources (0.2.1):
-    - AutoInch (~> 1.3.1)
-    - YYWebImage (~> 1.0.5)
   - Alamofire (4.9.1)
   - AutoInch (1.3.2)
-  - Countly (20.11.1):
-    - Countly/Core (= 20.11.1)
-  - Countly/Core (20.11.1)
-  - Disk (0.4.0)
+  - FSCalendar (2.8.2)
   - IQKeyboardManager (6.5.6)
   - LFLiveKit (2.6.1)
   - lottie-ios (3.1.6)
-  - MJRefresh (3.5.0)
+  - Masonry (1.1.0)
+  - MJRefresh (3.6.1)
   - Moya (13.0.1):
     - Moya/Core (= 13.0.1)
   - Moya/Core (13.0.1):
@@ -81,14 +38,13 @@ PODS:
   - ObjcExceptionBridging (1.0.1):
     - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
   - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
-  - R.swift (5.4.0):
-    - R.swift.Library (~> 5.3.0)
-  - R.swift.Library (5.3.0)
   - Result (4.1.0)
+  - SCIndexView (2.2.4)
   - SCPageControl (0.4.0)
   - SDCAlertView (12.0.1)
   - SnapKit (5.0.1)
   - Starscream (4.0.4)
+  - URLNavigator (2.1.0)
   - XCGLogger (7.0.1):
     - XCGLogger/Core (= 7.0.1)
   - XCGLogger/Core (7.0.1):
@@ -101,98 +57,62 @@ PODS:
   - YYWebImage (1.0.5):
     - YYCache
     - YYImage
-  - ZendeskAnswerBotProvidersSDK (2.1.2):
-    - ZendeskSupportProvidersSDK (~> 5.2.0)
-  - ZendeskAnswerBotSDK (2.1.2):
-    - ZendeskAnswerBotProvidersSDK (~> 2.1.2)
-    - ZendeskMessagingSDK (~> 3.8.1)
-  - ZendeskChatProvidersSDK (2.10.0)
-  - ZendeskChatSDK (2.10.0):
-    - ZendeskChatProvidersSDK (~> 2.10.0)
-    - ZendeskMessagingSDK (~> 3.8.1)
-  - ZendeskCommonUISDK (6.1.0)
-  - ZendeskCoreSDK (2.5.0)
-  - ZendeskMessagingAPISDK (3.8.1):
-    - ZendeskSDKConfigurationsSDK (~> 1.1.7)
-  - ZendeskMessagingSDK (3.8.1):
-    - ZendeskCommonUISDK (~> 6.1.0)
-    - ZendeskMessagingAPISDK (~> 3.8.1)
-  - ZendeskSDKConfigurationsSDK (1.1.7)
-  - ZendeskSupportProvidersSDK (5.2.0):
-    - ZendeskCoreSDK (~> 2.5.0)
-  - ZendeskSupportSDK (5.2.0):
-    - ZendeskMessagingSDK (~> 3.8.1)
-    - ZendeskSupportProvidersSDK (~> 5.2.0)
   - ZKDownload (0.1.0)
 
 DEPENDENCIES:
   - A4xBaseExtensionKit (from `A4xBaseExtensionKit`)
-  - A4xSDK (from `A4xSDK`)
+  - A4xVideoPushManager (from `A4xVideoPushManager`)
+  - A4xWebRtcFramework (from `A4xWebRtcFramework`)
   - A4xYogaKit (from `A4xYogaKit`)
-  - ADDXWebRTC (from `ADDXWebRTC`)
-  - ADVideoMessageManager (from `ADVideoMessageManager`)
   - AutoInch (~> 1.3.1)
-  - Countly
-  - Disk (~> 0.4.0)
+  - FSCalendar (~> 2.8)
   - IQKeyboardManager
   - LFLiveKit (from `LFLiveKit`)
   - lottie-ios (from `lottie-ios`)
+  - Masonry
   - MJRefresh (~> 3.2)
   - Moya (~> 13.0)
-  - R.swift
-  - Result (~> 4.1)
+  - SCIndexView (~> 2.2.4)
   - SCPageControl (from `SCPageControl`)
   - SDCAlertView
   - SnapKit (~> 5.0.0)
-  - ZendeskAnswerBotSDK
-  - ZendeskChatSDK
-  - ZendeskSupportSDK
+  - Starscream
+  - URLNavigator (~> 2.1.0)
+  - XCGLogger (~> 7.0.1)
+  - YYWebImage (~> 1.0.5)
   - ZKDownload (from `ZKDownload`)
 
 SPEC REPOS:
-  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - AutoInch
-    - Countly
-    - Disk
+    - FSCalendar
     - IQKeyboardManager
+    - Masonry
     - MJRefresh
     - Moya
     - ObjcExceptionBridging
-    - R.swift
-    - R.swift.Library
     - Result
+    - SCIndexView
     - SDCAlertView
     - SnapKit
     - Starscream
+    - URLNavigator
     - XCGLogger
     - Yoga
     - YYCache
     - YYImage
     - YYWebImage
-    - ZendeskAnswerBotProvidersSDK
-    - ZendeskAnswerBotSDK
-    - ZendeskChatProvidersSDK
-    - ZendeskChatSDK
-    - ZendeskCommonUISDK
-    - ZendeskCoreSDK
-    - ZendeskMessagingAPISDK
-    - ZendeskMessagingSDK
-    - ZendeskSDKConfigurationsSDK
-    - ZendeskSupportProvidersSDK
-    - ZendeskSupportSDK
 
 EXTERNAL SOURCES:
   A4xBaseExtensionKit:
     :path: A4xBaseExtensionKit
-  A4xSDK:
-    :path: A4xSDK
+  A4xVideoPushManager:
+    :path: A4xVideoPushManager
+  A4xWebRtcFramework:
+    :path: A4xWebRtcFramework
   A4xYogaKit:
     :path: A4xYogaKit
-  ADDXWebRTC:
-    :path: ADDXWebRTC
-  ADVideoMessageManager:
-    :path: ADVideoMessageManager
   LFLiveKit:
     :path: LFLiveKit
   lottie-ios:
@@ -203,46 +123,34 @@ EXTERNAL SOURCES:
     :path: ZKDownload
 
 SPEC CHECKSUMS:
-  A4xBaseExtensionKit: b0c85e5d7ae6f0ecc1f74665435303eb89d0b6b5
-  A4xSDK: f5d52594422fe5373c2c96a0ffbb20e2b333cf07
-  A4xYogaKit: 570ed741fbb4fd0f1df354349f1d97c6a0eb17db
-  ADDXWebRTC: 8aae3f4abf7604741e0577b9f6d561b418305a6f
-  ADVideoMessageManager: 01ab0dc38f4854a09289cb9624789ecd35e7ca87
+  A4xBaseExtensionKit: 83813a18934575d8dbfc185455f32f1604f3e4f1
+  A4xVideoPushManager: d207cf5d7d0d67ee5910537bb54ba4f8431f6ef2
+  A4xWebRtcFramework: 6e79f2ee6c3e88838b252c62165d7391daa5f9e7
+  A4xYogaKit: 6c8958a5b85daf36910e8dbfd15cb910c1769623
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   AutoInch: beaafbcef5f075d34b57bddd6b1893cb19d0f0de
-  Countly: df8dcfbbb6979e6ef31f7407d61d24fcbbbdaddf
-  Disk: ef2956657d5bb56034b38b29b352170165226440
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   LFLiveKit: 9956682731dd1af690e444de87e3fcc4468e9d5f
   lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
-  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: d2c1970d1cf6e77fcfcdfe76c943dfab8dbfa5c1
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
-  R.swift: c533450b0f7dc494e0993f5f1a1db925d84c3006
-  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SCIndexView: 20eba7a5ba1ffdf49a208031a82bf0549c0f9935
   SCPageControl: 8a8dfbba7d7d8c66487a317cb4c4578a7e4af27a
   SDCAlertView: d6070733e6ce72360dde3f84a2f9eafcda25ed49
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  URLNavigator: e8cea3835b3456d7876eb728831e742273c8d209
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
   Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
-  ZendeskAnswerBotProvidersSDK: 150e1f8d9305390bb2ee246c8bcb68c586d4acd0
-  ZendeskAnswerBotSDK: 71b1b23325ee7c00d3f0c6b15cb73c252ec60287
-  ZendeskChatProvidersSDK: dcda37575fba7ae503f3dc03313424ef1b2e729d
-  ZendeskChatSDK: 389196ae1688de1104ac05a40c5f89a9e76db838
-  ZendeskCommonUISDK: 92ca6b16956430a2cb61c89aeaa6ca123d1f81fd
-  ZendeskCoreSDK: f3d5dcd6a18186dcecbecd56f66296c40fb2fcb4
-  ZendeskMessagingAPISDK: 986919a8f6f11a7019660d1ff798f1efb42fa572
-  ZendeskMessagingSDK: bf9a06f0cbb219617d9cf60a46aba1b68c8f3b30
-  ZendeskSDKConfigurationsSDK: 45fa87ec8418697f7fce5e56bec472052f0aedb5
-  ZendeskSupportProvidersSDK: 5221df6ca45e0b6f12470a5e8e65ccf3ccca17fa
-  ZendeskSupportSDK: e100a7a0a1bb5d7d43abbde3338727d985a4986d
   ZKDownload: 09417c72fb3f7674216da6868281645c24f26e91
 
-PODFILE CHECKSUM: f2751cad9d864b4c8edd4ca8c68581465856c635
+PODFILE CHECKSUM: a28207eb93f80ca093ead6ca7ed80d237cc9589f
 
 COCOAPODS: 1.10.1

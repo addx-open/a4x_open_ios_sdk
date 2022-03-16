@@ -95,6 +95,7 @@ static FKDownloadManager *_instance = nil;
             config.requestCachePolicy = NSURLRequestReloadIgnoringLocalCacheData;
             config.allowsCellularAccess = YES;
             config.discretionary = NO;
+            config.sharedContainerIdentifier = self.configure.sharedContainerIdentifier;
             self.session = [NSURLSession sessionWithConfiguration:config delegate:self.executor delegateQueue:nil];
         } else {
             FKLog(@"配置 NSURLSession self.configure. BackgroudExecute")

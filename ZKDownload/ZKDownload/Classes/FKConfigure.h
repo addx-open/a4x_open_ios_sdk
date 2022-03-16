@@ -101,6 +101,12 @@ NS_SWIFT_NAME(Configure)
 @property (nonatomic, strong) NSString *sessionIdentifier;
 
 /**
+ Session 标识. 默认为 com.fk.downloader
+ */
+@property (nonatomic, strong) NSString *sharedContainerIdentifier;
+
+
+/**
  任务速度/预计完成时间更新间隔, 默认为 1s, 其值必须大于 0
  */
 @property (nonatomic, assign) NSTimeInterval speedRefreshInterval;

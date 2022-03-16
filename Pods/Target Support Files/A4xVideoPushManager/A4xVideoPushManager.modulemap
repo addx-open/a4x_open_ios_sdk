@@ -1,0 +1,6 @@
+framework module A4xVideoPushManager {
+  umbrella header "A4xVideoPushManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

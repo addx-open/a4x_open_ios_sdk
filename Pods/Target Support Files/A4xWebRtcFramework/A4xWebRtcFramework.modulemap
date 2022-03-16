@@ -1,0 +1,6 @@
+framework module A4xWebRtcFramework {
+  umbrella header "A4xWebRtcFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -55,7 +55,7 @@ public enum SCPageStyle: Int {
 
 let sc = SCPageControlView()
 
-override func viewDidLoad() {
+func viewDidLoad() {
     super.viewDidLoad()
 
 	sc.frame = CGRect(x: 0, y: UIScreen.main.bounds.size.height-50, width: UIScreen.main.bounds.size.width, height: 50)

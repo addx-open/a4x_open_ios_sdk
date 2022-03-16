@@ -1,0 +1,45 @@
+{
+  "name": "A4xVideoPushManager",
+  "version": "1.0.0",
+  "summary": "A short description of A4xVideoPushManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kuiyu Zhi/A4xVideoPushManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kuiyu Zhi": "kzhi@addx.ai"
+  },
+  "source": {
+    "git": "https://github.com/Kuiyu Zhi/A4xVideoPushManager.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "4.2",
+  "dependencies": {
+    "AutoInch": [
+      "~> 1.3.1"
+    ],
+    "YYWebImage": [
+      "~>1.0.5"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Classes",
+      "source_files": "A4xVideoPushManager/Classes/**/*"
+    },
+    {
+      "name": "Resources",
+      "resource_bundles": {
+        "A4xVideoPushManager": [
+          "A4xVideoPushManager/Assets/*.png"
+        ]
+      }
+    }
+  ],
+  "swift_version": "4.2"
+}

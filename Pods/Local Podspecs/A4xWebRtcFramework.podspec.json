@@ -1,0 +1,49 @@
+{
+  "name": "A4xWebRtcFramework",
+  "version": "0.1.0",
+  "summary": "A short description of A4xWebRtcFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/A4xWebRtcFramework/A4xWebRtcFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "A4xWebRtcFramework": "wjin@a4x.ai"
+  },
+  "source": {
+    "git": "http://192.168.31.7:7990/scm/swclien/webrtc-ios-demo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "A4xWebRtcFramework/*.{swift,h,m,mm}",
+  "public_header_files": "A4xWebRtcFramework/A4xWebRtcGenerateImage.h",
+  "vendored_frameworks": "Frameworks/*.framework",
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "dependencies": {
+    "Starscream": [
+
+    ],
+    "XCGLogger": [
+      "~> 7.0.1"
+    ],
+    "YYWebImage": [
+      "~>1.0.5"
+    ]
+  },
+  "frameworks": "VideoToolBox",
+  "libraries": [
+    "iconv",
+    "z"
+  ],
+  "subspecs": [
+    {
+      "name": "FFmpeg",
+      "source_files": "A4xWebRtcFramework/FFmpeg/*.{swift,h,m,mm}"
+    }
+  ]
+}

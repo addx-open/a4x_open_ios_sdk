@@ -50,8 +50,8 @@
 }
 
 - (void)setMaximumExecutionTask:(NSInteger)maximumExecutionTask {
-    if (maximumExecutionTask > 3) {
-        _maximumExecutionTask = 3;
+    if (maximumExecutionTask > 10) {
+        _maximumExecutionTask = 10;
     } else if (maximumExecutionTask < 0) {
         _maximumExecutionTask = 1;
     } else {

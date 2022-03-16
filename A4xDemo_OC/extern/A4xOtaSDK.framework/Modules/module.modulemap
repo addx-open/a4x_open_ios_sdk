@@ -1,0 +1,11 @@
+framework module A4xOtaSDK {
+  umbrella header "A4xOtaSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module A4xOtaSDK.Swift {
+    header "A4xOtaSDK-Swift.h"
+    requires objc
+}

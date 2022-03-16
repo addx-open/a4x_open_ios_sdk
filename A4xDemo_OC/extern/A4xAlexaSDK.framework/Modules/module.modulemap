@@ -1,0 +1,11 @@
+framework module A4xAlexaSDK {
+  umbrella header "A4xAlexaSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module A4xAlexaSDK.Swift {
+    header "A4xAlexaSDK-Swift.h"
+    requires objc
+}
