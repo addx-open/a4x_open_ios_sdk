@@ -275,7 +275,7 @@
         // 使用预设位置
         A4xPresetDataModel *presetModel =  [[A4xPresetDataModel alloc]initWithFllowInfos:@{} followTypes:@{}];
         // 从列表中获取的
-        //[presetModel setCurrentLocationWithDeviceId:self.deviceModel.deviceId preset:<#(A4xObjcPresetModel * _Nullable)#> comple:<#^(NSString * _Nullable)comple#>];
+        //[presetModel setCurrentLocationWithDeviceId:<#(NSString * _Nullable)#> preset:<#(A4xObjcPresetModel * _Nullable)#> comple:<#^(NSString * _Nullable)comple#>];
     }
     
     else if (tag == 20)

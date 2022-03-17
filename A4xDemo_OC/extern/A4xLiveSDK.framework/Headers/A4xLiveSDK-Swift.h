@@ -634,6 +634,8 @@ typedef SWIFT_ENUM(NSInteger, A4xPlayerStopReason, closed) {
 SWIFT_CLASS("_TtC10A4xLiveSDK18A4xPresetDataModel")
 @interface A4xPresetDataModel : NSObject
 - (nonnull instancetype)initWithFllowInfos:(NSDictionary<NSString *, NSNumber *> * _Nonnull)fllowInfos followTypes:(NSDictionary<NSString *, NSNumber *> * _Nonnull)followTypes OBJC_DESIGNATED_INITIALIZER;
+/// 使用预设位置
+- (void)setCurrentLocationWithDeviceId:(NSString * _Nullable)deviceId preset:(A4xObjcPresetModel * _Nullable)preset comple:(void (^ _Nonnull)(NSString * _Nullable))comple;
 - (BOOL)canAddLocationWithDeviceId:(NSString * _Nullable)deviceId SWIFT_WARN_UNUSED_RESULT;
 - (void)addWithDeviceId:(NSString * _Nullable)deviceId image:(UIImage * _Nullable)image name:(NSString * _Nullable)name comple:(void (^ _Nonnull)(BOOL, NSString * _Nullable))comple;
 - (void)removeWithDeviceId:(NSString * _Nullable)deviceId pointId:(NSInteger)pointId comple:(void (^ _Nonnull)(BOOL, NSString * _Nullable))comple;
@@ -1388,6 +1390,8 @@ typedef SWIFT_ENUM(NSInteger, A4xPlayerStopReason, closed) {
 SWIFT_CLASS("_TtC10A4xLiveSDK18A4xPresetDataModel")
 @interface A4xPresetDataModel : NSObject
 - (nonnull instancetype)initWithFllowInfos:(NSDictionary<NSString *, NSNumber *> * _Nonnull)fllowInfos followTypes:(NSDictionary<NSString *, NSNumber *> * _Nonnull)followTypes OBJC_DESIGNATED_INITIALIZER;
+/// 使用预设位置
+- (void)setCurrentLocationWithDeviceId:(NSString * _Nullable)deviceId preset:(A4xObjcPresetModel * _Nullable)preset comple:(void (^ _Nonnull)(NSString * _Nullable))comple;
 - (BOOL)canAddLocationWithDeviceId:(NSString * _Nullable)deviceId SWIFT_WARN_UNUSED_RESULT;
 - (void)addWithDeviceId:(NSString * _Nullable)deviceId image:(UIImage * _Nullable)image name:(NSString * _Nullable)name comple:(void (^ _Nonnull)(BOOL, NSString * _Nullable))comple;
 - (void)removeWithDeviceId:(NSString * _Nullable)deviceId pointId:(NSInteger)pointId comple:(void (^ _Nonnull)(BOOL, NSString * _Nullable))comple;
