@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/A4xBindSDK-Swift.h</key>
 		<data>
-		XwmTvNPs0n75mb1dkjSYB909UGQ=
+		AZW6/YikeuBWJdk9gJSdyR+WLuE=
 		</data>
 		<key>Headers/A4xBindSDK.h</key>
 		<data>
@@ -14,67 +14,67 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9mC42+L6tONvo2RrZtnxFrZ8O7c=
+		9B95rAJdDlFEiY7lRxl0sckhrTo=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		eItBr/rnBBXjiF7GCVspqN5AR4s=
+		jwj6Sb+blahLxuH6/JenVEblIXA=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		tD/K3h2t9xzZCt0+FyfLNIudkJg=
+		hTRHuLS22ck57UF+tQVcdloXLo4=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		tD/K3h2t9xzZCt0+FyfLNIudkJg=
+		hTRHuLS22ck57UF+tQVcdloXLo4=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		eItBr/rnBBXjiF7GCVspqN5AR4s=
+		jwj6Sb+blahLxuH6/JenVEblIXA=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		eItBr/rnBBXjiF7GCVspqN5AR4s=
+		jwj6Sb+blahLxuH6/JenVEblIXA=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
-		0UN4ijJRzEf4UaVI5YxduRWVUVc=
+		seZbth7bIiOcKhSZcxWBr6PBM3c=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		tvRHzhFWd1IG8GLZxAU7dDGO65g=
+		Tik8m0PE4w5ktbkSIn2F0GPup+E=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		HaRyDgc0c91be/ZUVnn0kfRKCSI=
+		dEE9Bu+6t8GbUqWWtddouykVNRM=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1B8PvCL61nT3pHwK7vIuROKIjBs=
+		cb8XiSnYINmUEhvhjK+3F3wVGZI=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		HaRyDgc0c91be/ZUVnn0kfRKCSI=
+		dEE9Bu+6t8GbUqWWtddouykVNRM=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		1B8PvCL61nT3pHwK7vIuROKIjBs=
+		cb8XiSnYINmUEhvhjK+3F3wVGZI=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		0UN4ijJRzEf4UaVI5YxduRWVUVc=
+		seZbth7bIiOcKhSZcxWBr6PBM3c=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		tvRHzhFWd1IG8GLZxAU7dDGO65g=
+		Tik8m0PE4w5ktbkSIn2F0GPup+E=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		0UN4ijJRzEf4UaVI5YxduRWVUVc=
+		seZbth7bIiOcKhSZcxWBr6PBM3c=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		tvRHzhFWd1IG8GLZxAU7dDGO65g=
+		Tik8m0PE4w5ktbkSIn2F0GPup+E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,11 +87,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XwmTvNPs0n75mb1dkjSYB909UGQ=
+			AZW6/YikeuBWJdk9gJSdyR+WLuE=
 			</data>
 			<key>hash2</key>
 			<data>
-			bROPdVCMiX4cxiDodM3i1BTmx0UM54xEgu2Yif2ON9U=
+			ib7MD7M2YdnM36DKMahi7OjTtUl3ViW97e2/9RuAf84=
 			</data>
 		</dict>
 		<key>Headers/A4xBindSDK.h</key>
@@ -109,165 +109,165 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eItBr/rnBBXjiF7GCVspqN5AR4s=
+			jwj6Sb+blahLxuH6/JenVEblIXA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vt7JPrRFnqrI8NL4WP2pyJNZHWhdV2tpdgj9ZN9Exjg=
+			Qbc2AI568LKtZTkvGIrIjILS/A9Gyg6TnT/484MxEHo=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tD/K3h2t9xzZCt0+FyfLNIudkJg=
+			hTRHuLS22ck57UF+tQVcdloXLo4=
 			</data>
 			<key>hash2</key>
 			<data>
-			a7cRqsJFprbbs+r2tTYeHgcnQHdLWAtMFtgnw2f4Du0=
+			RrnnvNoOVXH0QxqhqsgMAvKDH/D9QaN5m5oaw3Syf8I=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tD/K3h2t9xzZCt0+FyfLNIudkJg=
+			hTRHuLS22ck57UF+tQVcdloXLo4=
 			</data>
 			<key>hash2</key>
 			<data>
-			a7cRqsJFprbbs+r2tTYeHgcnQHdLWAtMFtgnw2f4Du0=
+			RrnnvNoOVXH0QxqhqsgMAvKDH/D9QaN5m5oaw3Syf8I=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eItBr/rnBBXjiF7GCVspqN5AR4s=
+			jwj6Sb+blahLxuH6/JenVEblIXA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vt7JPrRFnqrI8NL4WP2pyJNZHWhdV2tpdgj9ZN9Exjg=
+			Qbc2AI568LKtZTkvGIrIjILS/A9Gyg6TnT/484MxEHo=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eItBr/rnBBXjiF7GCVspqN5AR4s=
+			jwj6Sb+blahLxuH6/JenVEblIXA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vt7JPrRFnqrI8NL4WP2pyJNZHWhdV2tpdgj9ZN9Exjg=
+			Qbc2AI568LKtZTkvGIrIjILS/A9Gyg6TnT/484MxEHo=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0UN4ijJRzEf4UaVI5YxduRWVUVc=
+			seZbth7bIiOcKhSZcxWBr6PBM3c=
 			</data>
 			<key>hash2</key>
 			<data>
-			Iw+W8CYF6qfnv84BAfP9UmGDE6ob8TuP3eTG2qeOhy8=
+			cNZkki46h1IwsxeiGa9UD3QLC2NMYif6bTFvRlSajOA=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tvRHzhFWd1IG8GLZxAU7dDGO65g=
+			Tik8m0PE4w5ktbkSIn2F0GPup+E=
 			</data>
 			<key>hash2</key>
 			<data>
-			r41tsLTAqQQNLclgJweQhtrTLtxoK0oWC5vgEzekLhA=
+			ygAy9q4qDpy3KzPFbfMkSsXId/wPYw4fUmm+2w5KNho=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HaRyDgc0c91be/ZUVnn0kfRKCSI=
+			dEE9Bu+6t8GbUqWWtddouykVNRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			wCjSfnCgmIGmpYz/CapnCaPgZVrg+Kg069+hal6Q/1I=
+			8yK8s5GSLyVpIVqIuPZef5y68CR7eOuXiJYiVYHmC8k=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1B8PvCL61nT3pHwK7vIuROKIjBs=
+			cb8XiSnYINmUEhvhjK+3F3wVGZI=
 			</data>
 			<key>hash2</key>
 			<data>
-			AXMFsPsXkSsygrz5f/MPxph/fON2HYwDoY2Ofw6jNJk=
+			HT3t2i1ZvNAAtBrqXaGZkl9s77SACq1fJ2rjHTQNXTY=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HaRyDgc0c91be/ZUVnn0kfRKCSI=
+			dEE9Bu+6t8GbUqWWtddouykVNRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			wCjSfnCgmIGmpYz/CapnCaPgZVrg+Kg069+hal6Q/1I=
+			8yK8s5GSLyVpIVqIuPZef5y68CR7eOuXiJYiVYHmC8k=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1B8PvCL61nT3pHwK7vIuROKIjBs=
+			cb8XiSnYINmUEhvhjK+3F3wVGZI=
 			</data>
 			<key>hash2</key>
 			<data>
-			AXMFsPsXkSsygrz5f/MPxph/fON2HYwDoY2Ofw6jNJk=
+			HT3t2i1ZvNAAtBrqXaGZkl9s77SACq1fJ2rjHTQNXTY=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0UN4ijJRzEf4UaVI5YxduRWVUVc=
+			seZbth7bIiOcKhSZcxWBr6PBM3c=
 			</data>
 			<key>hash2</key>
 			<data>
-			Iw+W8CYF6qfnv84BAfP9UmGDE6ob8TuP3eTG2qeOhy8=
+			cNZkki46h1IwsxeiGa9UD3QLC2NMYif6bTFvRlSajOA=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tvRHzhFWd1IG8GLZxAU7dDGO65g=
+			Tik8m0PE4w5ktbkSIn2F0GPup+E=
 			</data>
 			<key>hash2</key>
 			<data>
-			r41tsLTAqQQNLclgJweQhtrTLtxoK0oWC5vgEzekLhA=
+			ygAy9q4qDpy3KzPFbfMkSsXId/wPYw4fUmm+2w5KNho=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0UN4ijJRzEf4UaVI5YxduRWVUVc=
+			seZbth7bIiOcKhSZcxWBr6PBM3c=
 			</data>
 			<key>hash2</key>
 			<data>
-			Iw+W8CYF6qfnv84BAfP9UmGDE6ob8TuP3eTG2qeOhy8=
+			cNZkki46h1IwsxeiGa9UD3QLC2NMYif6bTFvRlSajOA=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tvRHzhFWd1IG8GLZxAU7dDGO65g=
+			Tik8m0PE4w5ktbkSIn2F0GPup+E=
 			</data>
 			<key>hash2</key>
 			<data>
-			r41tsLTAqQQNLclgJweQhtrTLtxoK0oWC5vgEzekLhA=
+			ygAy9q4qDpy3KzPFbfMkSsXId/wPYw4fUmm+2w5KNho=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

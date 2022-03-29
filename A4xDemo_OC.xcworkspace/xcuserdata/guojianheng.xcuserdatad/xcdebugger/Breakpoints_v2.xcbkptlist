@@ -64,53 +64,5 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "24162A7E-40FC-4BB3-8006-AE6C3281CFD9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "A4xDemo_OC/Controller/CustomPlayerController/A4xSDListController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "-getSDDataSource"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "24162A7E-40FC-4BB3-8006-AE6C3281CFD9 - 382c331cbdf4a654"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[A4xSDListController getSDDataSource]"
-                  moduleName = "A4xDemo_OC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/guojianheng/Desktop/A4xSDKCode/A4x_Demo/a4xsdk_demo/A4xDemo_OC/Controller/CustomPlayerController/A4xSDListController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "232">
-               </Location>
-               <Location
-                  uuid = "24162A7E-40FC-4BB3-8006-AE6C3281CFD9 - fb60aad9916d39c4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__38-[A4xSDListController getSDDataSource]_block_invoke"
-                  moduleName = "A4xDemo_OC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/guojianheng/Desktop/A4xSDKCode/A4x_Demo/a4xsdk_demo/A4xDemo_OC/Controller/CustomPlayerController/A4xSDListController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "68">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
