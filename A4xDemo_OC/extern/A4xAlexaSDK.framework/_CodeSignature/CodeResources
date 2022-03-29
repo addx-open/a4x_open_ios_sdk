@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/A4xAlexaSDK-Swift.h</key>
 		<data>
-		wyUP/hI05rMUsCNZ5T/0DcJZYmM=
+		/nDME7/T/h2L1SaMk6uK8L9cEu8=
 		</data>
 		<key>Headers/A4xAlexaSDK.h</key>
 		<data>
@@ -14,67 +14,67 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2EEq4UA/LP96LRSnmr0mq/V95aw=
+		RCyzRJ59TT3sW2vFGBnTrQcMhW4=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		vgNl+VcwXdmO0Lx6UrKCTOHe8Zk=
+		Kw/iW9FVwsQJzy2CpJlO28B5q38=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		twXCImc+fZ0fK7DGjJqGwjYnSPs=
+		CnSRJra20G6F7vtuHWPwpAJwIcQ=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		twXCImc+fZ0fK7DGjJqGwjYnSPs=
+		CnSRJra20G6F7vtuHWPwpAJwIcQ=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		vgNl+VcwXdmO0Lx6UrKCTOHe8Zk=
+		Kw/iW9FVwsQJzy2CpJlO28B5q38=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		vgNl+VcwXdmO0Lx6UrKCTOHe8Zk=
+		Kw/iW9FVwsQJzy2CpJlO28B5q38=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
-		OQUDdLnTIb6T3FxzygHUcTu+Glk=
+		EDWiXY5SZtdjjm3Is+qLS+TpsJs=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		CnBf/0hCA+i26v1Kl+WAoftv0X0=
+		BqJh98Z1FNNrZjxsIFA14cVyxWo=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		zsdMfXIe3Hh2as6oyNHmP1BpNfA=
+		RteoGIrX+sETwafy6zav2Ea7dqg=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Ogogejw5KPH9v4VP6OuAlZOyxpI=
+		lRpO9HmCH3V3hX8RibRaB5aOX+Y=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		zsdMfXIe3Hh2as6oyNHmP1BpNfA=
+		RteoGIrX+sETwafy6zav2Ea7dqg=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Ogogejw5KPH9v4VP6OuAlZOyxpI=
+		lRpO9HmCH3V3hX8RibRaB5aOX+Y=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		OQUDdLnTIb6T3FxzygHUcTu+Glk=
+		EDWiXY5SZtdjjm3Is+qLS+TpsJs=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		CnBf/0hCA+i26v1Kl+WAoftv0X0=
+		BqJh98Z1FNNrZjxsIFA14cVyxWo=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		OQUDdLnTIb6T3FxzygHUcTu+Glk=
+		EDWiXY5SZtdjjm3Is+qLS+TpsJs=
 		</data>
 		<key>Modules/A4xAlexaSDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		CnBf/0hCA+i26v1Kl+WAoftv0X0=
+		BqJh98Z1FNNrZjxsIFA14cVyxWo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,11 +87,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wyUP/hI05rMUsCNZ5T/0DcJZYmM=
+			/nDME7/T/h2L1SaMk6uK8L9cEu8=
 			</data>
 			<key>hash2</key>
 			<data>
-			qT+MGSGvXUOqxofr7/RgfzItFa7jmvWqTOO16Bv2X5Y=
+			5Wxw8cyQON5J/N6nqCI10E4vh+CIr3kq43/CYk8O6/w=
 			</data>
 		</dict>
 		<key>Headers/A4xAlexaSDK.h</key>
@@ -109,165 +109,165 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vgNl+VcwXdmO0Lx6UrKCTOHe8Zk=
+			Kw/iW9FVwsQJzy2CpJlO28B5q38=
 			</data>
 			<key>hash2</key>
 			<data>
-			pxwDTjlUNMpzdsAvvEL7t1wP3EkBBOoiJBslo3zXu0I=
+			zKJrtJOuM5J/hu56qsee23+94iLpZ1m50RVGAji5vJg=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			twXCImc+fZ0fK7DGjJqGwjYnSPs=
+			CnSRJra20G6F7vtuHWPwpAJwIcQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			s/iv+oye/HcYfHFgY8FmLRyOUhhoXoScxbWMWsciSXQ=
+			1zt/lHqde9NQRMYe1wYITHZeh5MyuUzQ0v9Qg8dzdR0=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			twXCImc+fZ0fK7DGjJqGwjYnSPs=
+			CnSRJra20G6F7vtuHWPwpAJwIcQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			s/iv+oye/HcYfHFgY8FmLRyOUhhoXoScxbWMWsciSXQ=
+			1zt/lHqde9NQRMYe1wYITHZeh5MyuUzQ0v9Qg8dzdR0=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vgNl+VcwXdmO0Lx6UrKCTOHe8Zk=
+			Kw/iW9FVwsQJzy2CpJlO28B5q38=
 			</data>
 			<key>hash2</key>
 			<data>
-			pxwDTjlUNMpzdsAvvEL7t1wP3EkBBOoiJBslo3zXu0I=
+			zKJrtJOuM5J/hu56qsee23+94iLpZ1m50RVGAji5vJg=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vgNl+VcwXdmO0Lx6UrKCTOHe8Zk=
+			Kw/iW9FVwsQJzy2CpJlO28B5q38=
 			</data>
 			<key>hash2</key>
 			<data>
-			pxwDTjlUNMpzdsAvvEL7t1wP3EkBBOoiJBslo3zXu0I=
+			zKJrtJOuM5J/hu56qsee23+94iLpZ1m50RVGAji5vJg=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OQUDdLnTIb6T3FxzygHUcTu+Glk=
+			EDWiXY5SZtdjjm3Is+qLS+TpsJs=
 			</data>
 			<key>hash2</key>
 			<data>
-			MDwqqshn2E6cDN2wwZTVpyjp5mVIckRBjQCDAooNiHA=
+			RfGUtvkyE293CvHiWXaTLkOLSlWrBxIq7juYBaJS2E8=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CnBf/0hCA+i26v1Kl+WAoftv0X0=
+			BqJh98Z1FNNrZjxsIFA14cVyxWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			zdXdqApxe48GfdRfS0pE+fxjnnptRvDGUbwb4hdBa/M=
+			TnsQT5Gyt0bTRoiLDeID4TRmBqpvDdvVo5pGgMJNwJQ=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zsdMfXIe3Hh2as6oyNHmP1BpNfA=
+			RteoGIrX+sETwafy6zav2Ea7dqg=
 			</data>
 			<key>hash2</key>
 			<data>
-			GilJWJebNH2BDW1iWjJcuDHRfdfGgx3tWaGIeFns0NA=
+			x88pNkZmAamx/LpROdXZLnM/PvAi+TeyDPUQKgEBcUg=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ogogejw5KPH9v4VP6OuAlZOyxpI=
+			lRpO9HmCH3V3hX8RibRaB5aOX+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			2C5i/OTvh737Kzr2tZQ5+brX9eXlfnphEVrpHIQK7Zk=
+			vm+Rguca6Ntw6qbqHXrDVBoBpzqsgEnhVpNqsg6NXRU=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zsdMfXIe3Hh2as6oyNHmP1BpNfA=
+			RteoGIrX+sETwafy6zav2Ea7dqg=
 			</data>
 			<key>hash2</key>
 			<data>
-			GilJWJebNH2BDW1iWjJcuDHRfdfGgx3tWaGIeFns0NA=
+			x88pNkZmAamx/LpROdXZLnM/PvAi+TeyDPUQKgEBcUg=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ogogejw5KPH9v4VP6OuAlZOyxpI=
+			lRpO9HmCH3V3hX8RibRaB5aOX+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			2C5i/OTvh737Kzr2tZQ5+brX9eXlfnphEVrpHIQK7Zk=
+			vm+Rguca6Ntw6qbqHXrDVBoBpzqsgEnhVpNqsg6NXRU=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OQUDdLnTIb6T3FxzygHUcTu+Glk=
+			EDWiXY5SZtdjjm3Is+qLS+TpsJs=
 			</data>
 			<key>hash2</key>
 			<data>
-			MDwqqshn2E6cDN2wwZTVpyjp5mVIckRBjQCDAooNiHA=
+			RfGUtvkyE293CvHiWXaTLkOLSlWrBxIq7juYBaJS2E8=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CnBf/0hCA+i26v1Kl+WAoftv0X0=
+			BqJh98Z1FNNrZjxsIFA14cVyxWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			zdXdqApxe48GfdRfS0pE+fxjnnptRvDGUbwb4hdBa/M=
+			TnsQT5Gyt0bTRoiLDeID4TRmBqpvDdvVo5pGgMJNwJQ=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OQUDdLnTIb6T3FxzygHUcTu+Glk=
+			EDWiXY5SZtdjjm3Is+qLS+TpsJs=
 			</data>
 			<key>hash2</key>
 			<data>
-			MDwqqshn2E6cDN2wwZTVpyjp5mVIckRBjQCDAooNiHA=
+			RfGUtvkyE293CvHiWXaTLkOLSlWrBxIq7juYBaJS2E8=
 			</data>
 		</dict>
 		<key>Modules/A4xAlexaSDK.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CnBf/0hCA+i26v1Kl+WAoftv0X0=
+			BqJh98Z1FNNrZjxsIFA14cVyxWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			zdXdqApxe48GfdRfS0pE+fxjnnptRvDGUbwb4hdBa/M=
+			TnsQT5Gyt0bTRoiLDeID4TRmBqpvDdvVo5pGgMJNwJQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
