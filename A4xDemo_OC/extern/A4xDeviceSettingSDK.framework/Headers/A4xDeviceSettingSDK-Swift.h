@@ -307,6 +307,8 @@ SWIFT_CLASS("_TtC19A4xDeviceSettingSDK22A4xDeviceSettingConfig")
 @property (nonatomic) BOOL isOpenInstallSetting;
 /// 是否开启更多入口,默认关闭,需要开启改成true
 @property (nonatomic) BOOL isOpenMoreSetting;
+/// 是否自定义SD卡视频页面，默认使用A4x默认SD卡回看页面
+@property (nonatomic) BOOL isBackVideoCustom;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) A4xDeviceSettingConfig * _Nonnull shared;)
 + (A4xDeviceSettingConfig * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -827,6 +829,8 @@ SWIFT_CLASS("_TtC19A4xDeviceSettingSDK22A4xDeviceSettingConfig")
 @property (nonatomic) BOOL isOpenInstallSetting;
 /// 是否开启更多入口,默认关闭,需要开启改成true
 @property (nonatomic) BOOL isOpenMoreSetting;
+/// 是否自定义SD卡视频页面，默认使用A4x默认SD卡回看页面
+@property (nonatomic) BOOL isBackVideoCustom;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) A4xDeviceSettingConfig * _Nonnull shared;)
 + (A4xDeviceSettingConfig * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
