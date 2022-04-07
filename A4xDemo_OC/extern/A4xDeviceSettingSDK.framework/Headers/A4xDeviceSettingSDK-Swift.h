@@ -239,7 +239,6 @@ SWIFT_CLASS("_TtC19A4xDeviceSettingSDK29A4xActivityZoneViewController")
 
 
 
-
 @class UITableView;
 @class NSIndexPath;
 @class UITableViewCell;
@@ -254,6 +253,7 @@ SWIFT_CLASS("_TtC19A4xDeviceSettingSDK29A4xActivityZoneViewController")
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
+
 
 
 /// /import A4xNetwork
@@ -759,7 +759,6 @@ SWIFT_CLASS("_TtC19A4xDeviceSettingSDK29A4xActivityZoneViewController")
 
 
 
-
 @class UITableView;
 @class NSIndexPath;
 @class UITableViewCell;
@@ -774,6 +773,7 @@ SWIFT_CLASS("_TtC19A4xDeviceSettingSDK29A4xActivityZoneViewController")
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
+
 
 
 /// /import A4xNetwork

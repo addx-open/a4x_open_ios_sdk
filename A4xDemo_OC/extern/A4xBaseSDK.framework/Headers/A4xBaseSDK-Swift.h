@@ -894,14 +894,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) A4xBaseObjcD
 /// @return model   : 返回获取到的设备详细配置
 /// @return message : 信息描述
 - (void)objc_getDeviceSettingConfigWithDeviceId:(NSString * _Nonnull)deviceId comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull, A4xObjcDeviceModel * _Nullable))comple;
-/// 更新设备语言
-/// <hr/>
-/// @param deviceId   : 设备Id,唯一标识(必传)
-/// @param language   : 语言类型
-/// <hr/>
-/// @return code    : 错误码 0-成功 其他-失败
-/// @return message : 错误信息描述
-- (void)objc_updateDeviceLanguageWithDeviceId:(NSString * _Nonnull)deviceId language:(enum A4xDeviceLanguageType)language comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
 /// 通过deviceId更新某个设备的设备名称
 /// <hr/>
 /// @param deviceId   : 设备Id,唯一标识(必传)
@@ -917,6 +909,71 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) A4xBaseObjcD
 /// @return code    : 错误码 0-成功 其他-失败
 /// @return message : 信息描述
 - (void)objc_removeDeviceWithDeviceId:(NSString * _Nonnull)deviceId comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 设备是否休眠
+/// <hr/>
+/// @param deviceId   : 设备Id,唯一标识(必传)
+/// @param enable     : 是否开启 true/false
+/// <hr/>
+/// @return code    : 错误码 0-成功 其他-失败
+/// @return message : 信息描述
+- (void)objc_sleepToWakeUPWithDeviceId:(NSString * _Nonnull)deviceId enable:(BOOL)enable comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 休眠计划开关
+/// <hr/>
+/// @param deviceId   : 设备Id,唯一标识(必传)
+/// @param enable     : 是否开启 true/false
+/// <hr/>
+/// @return code    : 错误码 0-成功 其他-失败
+/// @return message : 信息描述
+- (void)enableSleepPlanWithDeviceId:(NSString * _Nonnull)deviceId enable:(BOOL)enable comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 创建休眠计划
+/// <hr/>
+/// @param deviceId     : 设备Id,唯一标识(必传)
+/// @param planStartDay : 计划开始天数组[Int]
+/// @param startHour    : 开始小时
+/// @param startMinute  : 开始分钟
+/// @param endHour      : 结束小时
+/// @param endMinute    : 结束分钟
+/// <hr/>
+/// @return code            : 错误码 0-成功 其他-失败
+/// @return message         : 信息描述
+- (void)createSleepPlanWithDeviceId:(NSString * _Nonnull)deviceId planStartDay:(NSArray<NSNumber *> * _Nonnull)planStartDay startHour:(NSInteger)startHour startMinute:(NSInteger)startMinute endHour:(NSInteger)endHour endMinute:(NSInteger)endMinute comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 编辑休眠计划
+/// <hr/>
+/// @param period       : period
+/// @param deviceId     : 设备Id,唯一标识(必传)
+/// @param planStartDay : 计划开始天数组[Int]
+/// @param startHour    : 开始小时
+/// @param startMinute  : 开始分钟
+/// @param endHour      : 结束小时
+/// @param endMinute    : 结束分钟
+/// <hr/>
+/// @return code            : 错误码 0-成功 其他-失败
+/// @return message         : 信息描述
+- (void)editSleepPlanWithPeriod:(NSInteger)period deviceId:(NSString * _Nonnull)deviceId planStartDay:(NSArray<NSNumber *> * _Nonnull)planStartDay startHour:(NSInteger)startHour startMinute:(NSInteger)startMinute endHour:(NSInteger)endHour endMinute:(NSInteger)endMinute comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 删除休眠计划
+/// <hr/>
+/// @param period       : period
+/// @param deviceId     : 设备Id,唯一标识(必传)
+/// <hr/>
+/// @return code            : 错误码 0-成功 其他-失败
+/// @return message         : 信息描述
+- (void)deleteSleepPlanWithPeriod:(NSInteger)period deviceId:(NSString * _Nonnull)deviceId comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 更新设备语言
+/// <hr/>
+/// @param deviceId   : 设备Id,唯一标识(必传)
+/// @param language   : 语言类型
+/// <hr/>
+/// @return code    : 错误码 0-成功 其他-失败
+/// @return message : 错误信息描述
+- (void)objc_updateDeviceLanguageWithDeviceId:(NSString * _Nonnull)deviceId language:(enum A4xDeviceLanguageType)language comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 警铃
+/// <hr/>
+/// @param deviceId : 设备Id,唯一标识(必传)
+/// <hr/>
+/// @return code    : 错误码 0-成功 其他-失败
+/// @return message : 信息描述
+/// @return result   : 返回警铃是否发出
+- (void)objc_openAlarmWithDeviceId:(NSString * _Nonnull)deviceId comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull, BOOL))comple;
 /// 更新动态侦测灵敏度
 /// note:
 /// 更新灵敏度需要enable传true
@@ -971,55 +1028,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) A4xBaseObjcD
 /// @return code    : 错误码 0-成功 其他-失败
 /// @return message : 信息描述
 - (void)objc_updateAlarmVolumeWithDeviceId:(NSString * _Nonnull)deviceId value:(NSInteger)value comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
-/// 设备是否休眠
+/// 视频翻转
 /// <hr/>
-/// @param deviceId   : 设备Id,唯一标识(必传)
-/// @param enable     : 是否开启 true/false
-/// <hr/>
-/// @return code    : 错误码 0-成功 其他-失败
-/// @return message : 信息描述
-- (void)objc_sleepToWakeUPWithDeviceId:(NSString * _Nonnull)deviceId enable:(BOOL)enable comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
-/// 休眠计划开关
-/// <hr/>
-/// @param deviceId   : 设备Id,唯一标识(必传)
-/// @param enable     : 是否开启 true/false
+/// @param deviceId : 设备Id,唯一标识(必传)
+/// @param enable   : 是否翻转
 /// <hr/>
 /// @return code    : 错误码 0-成功 其他-失败
 /// @return message : 信息描述
-- (void)enableSleepPlanWithDeviceId:(NSString * _Nonnull)deviceId enable:(BOOL)enable comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
-/// 创建休眠计划
-/// <hr/>
-/// @param deviceId     : 设备Id,唯一标识(必传)
-/// @param planStartDay : 计划开始天数组[Int]
-/// @param startHour    : 开始小时
-/// @param startMinute  : 开始分钟
-/// @param endHour      : 结束小时
-/// @param endMinute    : 结束分钟
-/// <hr/>
-/// @return code            : 错误码 0-成功 其他-失败
-/// @return message         : 信息描述
-- (void)createSleepPlanWithDeviceId:(NSString * _Nonnull)deviceId planStartDay:(NSArray<NSNumber *> * _Nonnull)planStartDay startHour:(NSInteger)startHour startMinute:(NSInteger)startMinute endHour:(NSInteger)endHour endMinute:(NSInteger)endMinute comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
-/// 编辑休眠计划
-/// <hr/>
-/// @param period       : period
-/// @param deviceId     : 设备Id,唯一标识(必传)
-/// @param planStartDay : 计划开始天数组[Int]
-/// @param startHour    : 开始小时
-/// @param startMinute  : 开始分钟
-/// @param endHour      : 结束小时
-/// @param endMinute    : 结束分钟
-/// <hr/>
-/// @return code            : 错误码 0-成功 其他-失败
-/// @return message         : 信息描述
-- (void)editSleepPlanWithPeriod:(NSInteger)period deviceId:(NSString * _Nonnull)deviceId planStartDay:(NSArray<NSNumber *> * _Nonnull)planStartDay startHour:(NSInteger)startHour startMinute:(NSInteger)startMinute endHour:(NSInteger)endHour endMinute:(NSInteger)endMinute comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
-/// 删除休眠计划
-/// <hr/>
-/// @param period       : period
-/// @param deviceId     : 设备Id,唯一标识(必传)
-/// <hr/>
-/// @return code            : 错误码 0-成功 其他-失败
-/// @return message         : 信息描述
-- (void)deleteSleepPlanWithPeriod:(NSInteger)period deviceId:(NSString * _Nonnull)deviceId comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+- (void)objc_setMirrorFlipWithDeviceId:(NSString * _Nonnull)deviceId enable:(BOOL)enable comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1059,16 +1075,36 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) A4xBaseObjcL
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+enum A4xDeviceUpdateStatus : NSInteger;
 @class A4xObjcDeviceUpdateProgressInfoModel;
 
 SWIFT_CLASS("_TtC10A4xBaseSDK23A4xBaseObjcOtaInterface")
 @interface A4xBaseObjcOtaInterface : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) A4xBaseObjcOtaInterface * _Nonnull shared;)
 + (A4xBaseObjcOtaInterface * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+/// 根据devicemodel判断设备是否处于更新状态
+/// yes:更新中 no:没有正在更新
+- (BOOL)isFirmwareUpdatingWithObjcDeviceModel:(A4xObjcDeviceModel * _Nonnull)objcDeviceModel SWIFT_WARN_UNUSED_RESULT;
+/// 根据devicemodel判断设备是否需要更新
+/// yes:需要更新 no:不需要更新
+- (BOOL)isFirmwareNeedUpdateWithObjcDeviceModel:(A4xObjcDeviceModel * _Nonnull)objcDeviceModel SWIFT_WARN_UNUSED_RESULT;
+/// 根据devicemodel获取设备更新状态
+/// A4xDeviceUpdateStatus:更新状态
+- (enum A4xDeviceUpdateStatus)getDeviceUpdateStatusWithObjcDeviceModel:(A4xObjcDeviceModel * _Nonnull)objcDeviceModel SWIFT_WARN_UNUSED_RESULT;
 - (void)startOTAUpdateWithDeviceID:(NSString * _Nonnull)deviceID resultBlock:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull, A4xObjcDeviceUpdateProgressInfoModel * _Nullable))resultBlock;
 - (void)fetchOTAUpdateProgressWithDeviceID:(NSString * _Nonnull)deviceID resultBlock:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull, A4xObjcDeviceUpdateProgressInfoModel * _Nullable))resultBlock;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+typedef SWIFT_ENUM(NSInteger, A4xDeviceUpdateStatus, closed) {
+  A4xDeviceUpdateStatusNoUpdate = 0,
+/// 不需要升级,默认状态
+  A4xDeviceUpdateStatusNeedUpdate = 1,
+/// 需要升级
+  A4xDeviceUpdateStatusUpdating = 2,
+/// 正在升级中
+  A4xDeviceUpdateStatusForceUpdate = 3,
+};
 
 
 SWIFT_CLASS("_TtC10A4xBaseSDK22A4xBasePageControlView")
@@ -1333,6 +1369,8 @@ typedef SWIFT_ENUM(NSInteger, A4xNodeType, closed) {
   A4xNodeTypeSTAGE_NODE_EU = 4,
 /// staging cn
   A4xNodeTypeSTAGE_NODE_CN = 5,
+/// default
+  A4xNodeTypeNODE_DEFAULT = 6,
 };
 
 
@@ -1492,6 +1530,8 @@ SWIFT_CLASS("_TtC10A4xBaseSDK18A4xObjcDeviceModel")
 @property (nonatomic, copy) NSString * _Nonnull defaultCodec;
 @property (nonatomic, copy) NSString * _Nonnull codec;
 @property (nonatomic) BOOL firmwareSupported;
+/// 当前设备是否是Vip 0:不是 1:是
+@property (nonatomic) NSInteger deviceVipLevel;
 @property (nonatomic, strong) A4xObjcCoolDownModel * _Nullable cooldown;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -2860,14 +2900,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) A4xBaseObjcD
 /// @return model   : 返回获取到的设备详细配置
 /// @return message : 信息描述
 - (void)objc_getDeviceSettingConfigWithDeviceId:(NSString * _Nonnull)deviceId comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull, A4xObjcDeviceModel * _Nullable))comple;
-/// 更新设备语言
-/// <hr/>
-/// @param deviceId   : 设备Id,唯一标识(必传)
-/// @param language   : 语言类型
-/// <hr/>
-/// @return code    : 错误码 0-成功 其他-失败
-/// @return message : 错误信息描述
-- (void)objc_updateDeviceLanguageWithDeviceId:(NSString * _Nonnull)deviceId language:(enum A4xDeviceLanguageType)language comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
 /// 通过deviceId更新某个设备的设备名称
 /// <hr/>
 /// @param deviceId   : 设备Id,唯一标识(必传)
@@ -2883,6 +2915,71 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) A4xBaseObjcD
 /// @return code    : 错误码 0-成功 其他-失败
 /// @return message : 信息描述
 - (void)objc_removeDeviceWithDeviceId:(NSString * _Nonnull)deviceId comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 设备是否休眠
+/// <hr/>
+/// @param deviceId   : 设备Id,唯一标识(必传)
+/// @param enable     : 是否开启 true/false
+/// <hr/>
+/// @return code    : 错误码 0-成功 其他-失败
+/// @return message : 信息描述
+- (void)objc_sleepToWakeUPWithDeviceId:(NSString * _Nonnull)deviceId enable:(BOOL)enable comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 休眠计划开关
+/// <hr/>
+/// @param deviceId   : 设备Id,唯一标识(必传)
+/// @param enable     : 是否开启 true/false
+/// <hr/>
+/// @return code    : 错误码 0-成功 其他-失败
+/// @return message : 信息描述
+- (void)enableSleepPlanWithDeviceId:(NSString * _Nonnull)deviceId enable:(BOOL)enable comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 创建休眠计划
+/// <hr/>
+/// @param deviceId     : 设备Id,唯一标识(必传)
+/// @param planStartDay : 计划开始天数组[Int]
+/// @param startHour    : 开始小时
+/// @param startMinute  : 开始分钟
+/// @param endHour      : 结束小时
+/// @param endMinute    : 结束分钟
+/// <hr/>
+/// @return code            : 错误码 0-成功 其他-失败
+/// @return message         : 信息描述
+- (void)createSleepPlanWithDeviceId:(NSString * _Nonnull)deviceId planStartDay:(NSArray<NSNumber *> * _Nonnull)planStartDay startHour:(NSInteger)startHour startMinute:(NSInteger)startMinute endHour:(NSInteger)endHour endMinute:(NSInteger)endMinute comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 编辑休眠计划
+/// <hr/>
+/// @param period       : period
+/// @param deviceId     : 设备Id,唯一标识(必传)
+/// @param planStartDay : 计划开始天数组[Int]
+/// @param startHour    : 开始小时
+/// @param startMinute  : 开始分钟
+/// @param endHour      : 结束小时
+/// @param endMinute    : 结束分钟
+/// <hr/>
+/// @return code            : 错误码 0-成功 其他-失败
+/// @return message         : 信息描述
+- (void)editSleepPlanWithPeriod:(NSInteger)period deviceId:(NSString * _Nonnull)deviceId planStartDay:(NSArray<NSNumber *> * _Nonnull)planStartDay startHour:(NSInteger)startHour startMinute:(NSInteger)startMinute endHour:(NSInteger)endHour endMinute:(NSInteger)endMinute comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 删除休眠计划
+/// <hr/>
+/// @param period       : period
+/// @param deviceId     : 设备Id,唯一标识(必传)
+/// <hr/>
+/// @return code            : 错误码 0-成功 其他-失败
+/// @return message         : 信息描述
+- (void)deleteSleepPlanWithPeriod:(NSInteger)period deviceId:(NSString * _Nonnull)deviceId comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 更新设备语言
+/// <hr/>
+/// @param deviceId   : 设备Id,唯一标识(必传)
+/// @param language   : 语言类型
+/// <hr/>
+/// @return code    : 错误码 0-成功 其他-失败
+/// @return message : 错误信息描述
+- (void)objc_updateDeviceLanguageWithDeviceId:(NSString * _Nonnull)deviceId language:(enum A4xDeviceLanguageType)language comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+/// 警铃
+/// <hr/>
+/// @param deviceId : 设备Id,唯一标识(必传)
+/// <hr/>
+/// @return code    : 错误码 0-成功 其他-失败
+/// @return message : 信息描述
+/// @return result   : 返回警铃是否发出
+- (void)objc_openAlarmWithDeviceId:(NSString * _Nonnull)deviceId comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull, BOOL))comple;
 /// 更新动态侦测灵敏度
 /// note:
 /// 更新灵敏度需要enable传true
@@ -2937,55 +3034,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) A4xBaseObjcD
 /// @return code    : 错误码 0-成功 其他-失败
 /// @return message : 信息描述
 - (void)objc_updateAlarmVolumeWithDeviceId:(NSString * _Nonnull)deviceId value:(NSInteger)value comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
-/// 设备是否休眠
+/// 视频翻转
 /// <hr/>
-/// @param deviceId   : 设备Id,唯一标识(必传)
-/// @param enable     : 是否开启 true/false
-/// <hr/>
-/// @return code    : 错误码 0-成功 其他-失败
-/// @return message : 信息描述
-- (void)objc_sleepToWakeUPWithDeviceId:(NSString * _Nonnull)deviceId enable:(BOOL)enable comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
-/// 休眠计划开关
-/// <hr/>
-/// @param deviceId   : 设备Id,唯一标识(必传)
-/// @param enable     : 是否开启 true/false
+/// @param deviceId : 设备Id,唯一标识(必传)
+/// @param enable   : 是否翻转
 /// <hr/>
 /// @return code    : 错误码 0-成功 其他-失败
 /// @return message : 信息描述
-- (void)enableSleepPlanWithDeviceId:(NSString * _Nonnull)deviceId enable:(BOOL)enable comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
-/// 创建休眠计划
-/// <hr/>
-/// @param deviceId     : 设备Id,唯一标识(必传)
-/// @param planStartDay : 计划开始天数组[Int]
-/// @param startHour    : 开始小时
-/// @param startMinute  : 开始分钟
-/// @param endHour      : 结束小时
-/// @param endMinute    : 结束分钟
-/// <hr/>
-/// @return code            : 错误码 0-成功 其他-失败
-/// @return message         : 信息描述
-- (void)createSleepPlanWithDeviceId:(NSString * _Nonnull)deviceId planStartDay:(NSArray<NSNumber *> * _Nonnull)planStartDay startHour:(NSInteger)startHour startMinute:(NSInteger)startMinute endHour:(NSInteger)endHour endMinute:(NSInteger)endMinute comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
-/// 编辑休眠计划
-/// <hr/>
-/// @param period       : period
-/// @param deviceId     : 设备Id,唯一标识(必传)
-/// @param planStartDay : 计划开始天数组[Int]
-/// @param startHour    : 开始小时
-/// @param startMinute  : 开始分钟
-/// @param endHour      : 结束小时
-/// @param endMinute    : 结束分钟
-/// <hr/>
-/// @return code            : 错误码 0-成功 其他-失败
-/// @return message         : 信息描述
-- (void)editSleepPlanWithPeriod:(NSInteger)period deviceId:(NSString * _Nonnull)deviceId planStartDay:(NSArray<NSNumber *> * _Nonnull)planStartDay startHour:(NSInteger)startHour startMinute:(NSInteger)startMinute endHour:(NSInteger)endHour endMinute:(NSInteger)endMinute comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
-/// 删除休眠计划
-/// <hr/>
-/// @param period       : period
-/// @param deviceId     : 设备Id,唯一标识(必传)
-/// <hr/>
-/// @return code            : 错误码 0-成功 其他-失败
-/// @return message         : 信息描述
-- (void)deleteSleepPlanWithPeriod:(NSInteger)period deviceId:(NSString * _Nonnull)deviceId comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
+- (void)objc_setMirrorFlipWithDeviceId:(NSString * _Nonnull)deviceId enable:(BOOL)enable comple:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull))comple;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -3025,16 +3081,36 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) A4xBaseObjcL
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+enum A4xDeviceUpdateStatus : NSInteger;
 @class A4xObjcDeviceUpdateProgressInfoModel;
 
 SWIFT_CLASS("_TtC10A4xBaseSDK23A4xBaseObjcOtaInterface")
 @interface A4xBaseObjcOtaInterface : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) A4xBaseObjcOtaInterface * _Nonnull shared;)
 + (A4xBaseObjcOtaInterface * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+/// 根据devicemodel判断设备是否处于更新状态
+/// yes:更新中 no:没有正在更新
+- (BOOL)isFirmwareUpdatingWithObjcDeviceModel:(A4xObjcDeviceModel * _Nonnull)objcDeviceModel SWIFT_WARN_UNUSED_RESULT;
+/// 根据devicemodel判断设备是否需要更新
+/// yes:需要更新 no:不需要更新
+- (BOOL)isFirmwareNeedUpdateWithObjcDeviceModel:(A4xObjcDeviceModel * _Nonnull)objcDeviceModel SWIFT_WARN_UNUSED_RESULT;
+/// 根据devicemodel获取设备更新状态
+/// A4xDeviceUpdateStatus:更新状态
+- (enum A4xDeviceUpdateStatus)getDeviceUpdateStatusWithObjcDeviceModel:(A4xObjcDeviceModel * _Nonnull)objcDeviceModel SWIFT_WARN_UNUSED_RESULT;
 - (void)startOTAUpdateWithDeviceID:(NSString * _Nonnull)deviceID resultBlock:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull, A4xObjcDeviceUpdateProgressInfoModel * _Nullable))resultBlock;
 - (void)fetchOTAUpdateProgressWithDeviceID:(NSString * _Nonnull)deviceID resultBlock:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull, A4xObjcDeviceUpdateProgressInfoModel * _Nullable))resultBlock;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+typedef SWIFT_ENUM(NSInteger, A4xDeviceUpdateStatus, closed) {
+  A4xDeviceUpdateStatusNoUpdate = 0,
+/// 不需要升级,默认状态
+  A4xDeviceUpdateStatusNeedUpdate = 1,
+/// 需要升级
+  A4xDeviceUpdateStatusUpdating = 2,
+/// 正在升级中
+  A4xDeviceUpdateStatusForceUpdate = 3,
+};
 
 
 SWIFT_CLASS("_TtC10A4xBaseSDK22A4xBasePageControlView")
@@ -3299,6 +3375,8 @@ typedef SWIFT_ENUM(NSInteger, A4xNodeType, closed) {
   A4xNodeTypeSTAGE_NODE_EU = 4,
 /// staging cn
   A4xNodeTypeSTAGE_NODE_CN = 5,
+/// default
+  A4xNodeTypeNODE_DEFAULT = 6,
 };
 
 
@@ -3458,6 +3536,8 @@ SWIFT_CLASS("_TtC10A4xBaseSDK18A4xObjcDeviceModel")
 @property (nonatomic, copy) NSString * _Nonnull defaultCodec;
 @property (nonatomic, copy) NSString * _Nonnull codec;
 @property (nonatomic) BOOL firmwareSupported;
+/// 当前设备是否是Vip 0:不是 1:是
+@property (nonatomic) NSInteger deviceVipLevel;
 @property (nonatomic, strong) A4xObjcCoolDownModel * _Nullable cooldown;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
